@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "848687230366",
+    "project_id": "makeitclean-7cd70",
+    "storage_bucket": "makeitclean-7cd70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848687230366:android:a58f555335c65dc259fa8f",
+        "android_client_info": {
+          "package_name": "com.example.makeitclean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848687230366-776d391sdnfka08u2i6qpavsuhqicgno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrO9_FhQJntOM0ANJ-ibawXcrw8xx7Hk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848687230366-776d391sdnfka08u2i6qpavsuhqicgno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
