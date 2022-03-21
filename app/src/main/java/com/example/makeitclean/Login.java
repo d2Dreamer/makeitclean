@@ -107,7 +107,7 @@ public class Login extends AppCompatActivity {
                             public void onFailure(@NonNull Exception e) {
                                 Toast.makeText(Login.this, "Error Sending Reset Link! "+ e.getMessage(), Toast.LENGTH_SHORT).show();
                             }
-                        })
+                        });
                     }
                 });
 
