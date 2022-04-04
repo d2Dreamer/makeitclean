@@ -3,6 +3,7 @@ package com.example.makeitclean;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -22,6 +23,15 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         replaceFragment(new homeFragment());
+
+        Button b = (Button) findViewById(R.id.saveRoute);
+
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,Pop.class));
+            }
+        });
 
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
 
