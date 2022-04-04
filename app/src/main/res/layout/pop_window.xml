@@ -110,7 +110,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:background="@color/white"
-        android:text="Quality Of Accessibility"
+        android:text="Quality Of Air"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/RatingAirQuality"
         app:layout_constraintStart_toStartOf="parent"
