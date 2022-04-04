@@ -6,4 +6,4 @@ utilises user experience of these routes includes evaluation measures such as sa
 
 This app is integrated with Firebase.
 
-This app is using the Mapbox Navigation SDK to handle mapping and routing.
+This app is using the Google Maps Navigation SDK to handle mapping and routing.
